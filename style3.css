@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;/*c qoi la difference entre aligne-items et justify-content*/
+    align-items: center;
+}
+h1{
+    font-size: 4em;
+    align-items: center;
+}
+.container{
+    width: 30%;
+    height: 60%;
+    display: flex;/*c qoi la dif flex et flexbox*/
+    flex-direction: column;
+    place-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 30px;
+    background-color: rgba(25, 194, 194,40%);
+}
+table{
+    table-layout: auto;
+    width: 80%;
+  
+    
+}
+td ,p {
+    font-size: 2em ;
+    
+    /* color: rgba(25, 194, 194); */
+}
+.titre-tab{
+    border: 1px solid rgba(0, 21, 255, 0.695);
+    border-radius: 30px;
+}
